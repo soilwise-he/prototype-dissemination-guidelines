@@ -1,0 +1,15 @@
+# R artifacts
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Bookdown build artifacts (auto-generated)
+_bookdown_files/
+packages.bib
+*.knit.md
+*.utf8.md
+
+# Keep docs/ (used for GitHub Pages)
+# !docs/
