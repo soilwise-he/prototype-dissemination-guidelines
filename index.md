@@ -1,7 +1,7 @@
 --- 
 title: "SoilWise Dissemination Guidelines"
 author: "SoilWise Consortium"
-date: "2026-06"
+date: 2026-06
 site: bookdown::bookdown_site
 documentclass: book
 description: "User Manual and Dissemination Guidelines for the SoilWise Catalogue (D4.6)."
