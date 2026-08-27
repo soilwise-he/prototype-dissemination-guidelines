@@ -25,7 +25,7 @@ The manual is written for the least technical reader. Its primary audience is st
 
 This document is comprised of the following chapters:
 
-- **Chapter \@ref(intro): Introduction** — introduces the SoilWise project, WP4 objectives, and the scope of the document.
-- **Chapter \@ref(catalogue): The SoilWise Catalogue** — presents SoilWise in a nutshell and explains why the platform exists.
-- **Chapter \@ref(components): Platform Components** — describes each of the thirteen platform components in plain language.
+- **Chapter 1: Introduction** — introduces the SoilWise project, WP4 objectives, and the scope of the document.
+- **Chapter 2: The SoilWise Catalogue** — presents SoilWise in a nutshell and explains why the platform exists.
+- **Chapter 3: Platform Components** — describes each of the thirteen platform components in plain language.
 - **References** — bibliography and further reading.

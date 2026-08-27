@@ -1,12 +1,9 @@
 --- 
 title: "SoilWise Dissemination Guidelines"
 author: "SoilWise Consortium"
-date: "`r Sys.Date()`"
+date: "2026-06"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib]
-biblio-style: apalike
-link-citations: yes
 description: "User Manual and Dissemination Guidelines for the SoilWise Catalogue (D4.6)."
 ---
 
@@ -20,6 +17,6 @@ SoilWise is funded by the Horizon Europe research and innovation programme under
 
 Read the chapters in order for a complete overview, or jump directly to the section relevant to your role:
 
-- **New users** – start with Chapter \@ref(intro).
-- **Policy makers** – focus on Chapter \@ref(catalogue).
+- **New users** – start with Chapter Chapter 1.
+- **Policy makers** – focus on Chapter Chapter 2.
 - **Technical staff** – refer to the architecture and component chapters.
