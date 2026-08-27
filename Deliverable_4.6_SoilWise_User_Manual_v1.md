@@ -346,9 +346,7 @@ SoilWise addresses this fragmentation by collecting (harvesting) metadata from m
 
 <a id="figure-1"></a>
 
-![A diagram of a cylinder
-
-AI-generated content may be incorrect.](images/image3.png)
+![schematic overview of the flow through the catalogue](images/image3.png)
 
 Figure 1 A schematic overview of the flow through the catalogue
 
