@@ -1,0 +1,10 @@
+book_filename: "soilwise-dissemination-guidelines"
+chapter_name: "Chapter "
+rmd_files:
+  - index.md
+  - 01-intro.md
+  - 02-catalogue.md
+  - 03-components.md
+  - references.md
+new_session: yes
+output_dir: docs
