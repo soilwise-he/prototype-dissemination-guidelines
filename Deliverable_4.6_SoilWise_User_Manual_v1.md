@@ -139,112 +139,114 @@ Glossary
 | **Vector embeddings**                    | Dense numerical representations of text that capture semantic meaning, allowing similar concepts to be found even when they use different words. Planned for semantic search in the SoilWise Finder and Soil Companion.                                                                                                                                                                                                                                |
 | **Virtuoso**                             | An open-source triple store and SPARQL endpoint software used by SoilWise to store the metadata knowledge graph (the RDF representation of harvested records) and to support semantic queries. Distinct from the Soil Health Knowledge Graph (SHKG).                                                                                                                                                                                                   |
 | **WUR AgroDataCube**                     | A Wageningen University & Research service providing field-level agricultural and soil data for the Netherlands, optionally consulted by the Soil Companion for localised queries.                                                                                                                                                                                                                                                                     |
+# Table of Content
 
-[1 Introduction 15](#_Toc233723047)
+[1 Introduction](#introduction)
 
-[1.1 Project summary 15](#_Toc233723048)
+[1.1 Project summary](#project-summary)
 
-[1.2 WP4 objectives and relevant tasks 15](#_Toc233723049)
+[1.2 WP4 objectives and relevant tasks](#wp4-objectives-and-relevant-tasks)
 
-[1.3 Document scope 16](#_Toc233723050)
+[1.3 Document scope](#document-scope)
 
-[1.4 Document structure 16](#_Toc233723051)
+[1.4 Document structure](#document-structure)
 
-[1.5 Relationship to other project deliverables 17](#_Toc233723052)
+[1.5 Relationship to other project deliverables](#relationship-to-other-project-deliverables)
 
-[2 User manual context and instructions 19](#_Toc233723053)
+[2 User manual context and instructions](#user-manual-context-and-instructions)
 
-[2.1 SoilWise in a nutshell 19](#_Toc233723054)
+[2.1 SoilWise in a nutshell](#soilwise-in-a-nutshell)
 
-[2.2 Why does SoilWise exist? 19](#_Toc233723055)
+[2.2 Why does SoilWise exist?](#why-does-soilwise-exist)
 
-[2.3 Who should read this manual? 19](#_Toc233723056)
+[2.3 Who should read this manual?](#who-should-read-this-manual)
 
-[2.4 How to use this document 20](#_Toc233723057)
+[2.4 How to use this document](#how-to-use-this-document)
 
-[3 How SoilWise works: the journey of a soil resource 22](#_Toc233723058)
+[3 How SoilWise works: the journey of a soil resource](#how-soilwise-works-the-journey-of-a-soil-resource)
 
-[3.1 A worked example: a Mission Soil dataset finds its way to a user 22](#_Toc233723059)
+[3.1 A worked example: a Mission Soil dataset finds its way to a user](#a-worked-example-a-mission-soil-dataset-finds-its-way-to-a-user)
 
-[4 The SoilWise soil information platform - The thirteen components 27](#_Toc233723060)
+[4 The SoilWise soil information platform - The thirteen components](#the-soilwise-soil-information-platform-the-thirteen-components)
 
-[4.1 Harvester (including Metadata Harmonisation) 28](#_Toc233723061)
+[4.1 Harvester (including Metadata Harmonisation)](#harvester-including-metadata-harmonisation)
 
-[4.2 Metadata Validation 32](#_Toc233723062)
+[4.2 Metadata Validation](#metadata-validation)
 
-[4.3 Metadata Augmentation 35](#_Toc233723063)
+[4.3 Metadata Augmentation](#metadata-augmentation)
 
-[4.4 Repository Storage 37](#_Toc233723064)
+[4.4 Repository Storage](#repository-storage)
 
-[4.5 Soil Health Knowledge Graph and SoilVoc 39](#_Toc233723065)
+[4.5 Soil Health Knowledge Graph and SoilVoc](#soil-health-knowledge-graph-and-soilvoc)
 
-[4.6 SoilWise Finder (the Metadata Catalogue) 42](#_Toc233723066)
+[4.6 SoilWise Finder (the Metadata Catalogue)](#soilwise-finder-the-metadata-catalogue)
 
-[4.7 SoilWise Companion 44](#_Toc233723067)
+[4.7 SoilWise Companion](#soilwise-companion)
 
-[4.8 Data and Knowledge Publication Support Tools 46](#_Toc233723068)
+[4.8 Data and Knowledge Publication Support Tools](#data-and-knowledge-publication-support-tools)
 
-[4.9 Metadata Authoring 49](#_Toc233723069)
+[4.9 Metadata Authoring](#metadata-authoring)
 
-[4.10 System Usage and Monitoring (including the Administration Console) 50](#_Toc233723070)
+[4.10 System Usage and Monitoring (including the Administration Console)](#system-usage-and-monitoring-including-the-administration-console)
 
-[4.11 Access Control 52](#_Toc233723071)
+[4.11 Access Control](#access-control)
 
-[4.12 EUSO Integration 53](#_Toc233723072)
+[4.12 EUSO Integration](#euso-integration)
 
-[4.13 Dissemination and Guidelines 55](#_Toc233723073)
+[4.13 Dissemination and Guidelines](#dissemination-and-guidelines)
 
-[5 Using SoilWise: practical walkthroughs 60](#_Toc233723074)
+[5 Using SoilWise: practical walkthroughs](#using-soilwise-practical-walkthroughs)
 
-[5.1 Searching the catalogue with the SoilWise Finder 60](#_Toc233723075)
+[5.1 Searching the catalogue with the SoilWise Finder](#searching-the-catalogue-with-the-soilwise-finder)
 
-[5.2 Asking the Soil Companion 62](#_Toc233723076)
+[5.2 Asking the Soil Companion](#asking-the-soil-companion)
 
-[5.3 Publishing your (Mission) soil data to SoilWise 64](#_Toc233723077)
+[5.3 Publishing your (Mission) soil data to SoilWise](#publishing-your-mission-soil-data-to-soilwise)
 
-[5.4 Administering the catalogue 65](#_Toc233723078)
+[5.4 Administering the catalogue](#administering-the-catalogue)
 
-[6 Conclusions and what comes next 66](#_Toc233723079)
+[6 Conclusions and what comes next](#conclusions-and-what-comes-next)
 
-List of Tables and Figures
+# List of Tables and Figures
 
-[Figure 1 A schematic overview of the flow through the catalogue 19](#_Toc233723166)
+[Figure 1 A schematic overview of the flow through the catalogue](#figure-1)
 
-[Figure 2 Dashboard view of the scheduled harvester and augmentation workflows. 23](#_Toc233723167)
+[Figure 2 Dashboard view of the scheduled harvester and augmentation workflows.](#figure-2)
 
-[Figure 3 End-to-end flow of a soil metadata record through the SoilWise Catalogue and Soil Companion 26](#_Toc233723168)
+[Figure 3 End-to-end flow of a soil metadata record through the SoilWise Catalogue and Soil Companion](#figure-3)
 
-[Figure 4 Configuration of the harvesters is managed via a configuration script in the SoilWise Github repository. 30](#_Toc233723169)
+[Figure 4 Configuration of the harvesters is managed via a configuration script in the SoilWise Github repository.](#figure-4)
 
-[Figure 5 Results of the completeness validation are displayed in an administrator dashboard 34](#_Toc233723170)
+[Figure 5 Results of the completeness validation are displayed in an administrator dashboard](#figure-5)
 
-[Figure 6 Soil Health Knowledge Graph published in Zenodo 40](#_Toc233723171)
+[Figure 6 Soil Health Knowledge Graph published in Zenodo](#figure-6)
 
-[Figure 7 A Visual representation of the knowledge graph is available via github.io 41](#_Toc233723172)
+[Figure 7 A Visual representation of the knowledge graph is available via github.io](#figure-7)
 
-[Figure 8 The homepage of the SoilWise Catalogue 42](#_Toc233723173)
+[Figure 8 The homepage of the SoilWise Catalogue](#figure-8)
 
-[Figure 9 Search options and listing results in the SoilWise Catalogue 43](#_Toc233723174)
+[Figure 9 Search options and listing results in the SoilWise Catalogue](#figure-9)
 
-[Figure 10. Soil Companion v2 screenshot, showing main conversation area and sidebar presenting Insight links dynamically based on the conversation for further exploration. 44](#_Toc233723175)
+[Figure 10. Soil Companion v2 screenshot, showing main conversation area and sidebar presenting Insight links dynamically based on the conversation for further exploration.](#figure-10)
 
-[Figure 11 Data format conversion pathways in the SoilWise Publication Support tools. 46](#_Toc233723176)
+[Figure 11 Data format conversion pathways in the SoilWise Publication Support tools.](#figure-11)
 
-[Figure 12 FAIR data strategies and practical guides: link1, link2 56](#_Toc233723177)
+[Figure 12 FAIR data strategies and practical guides: link1, link2](#figure-12)
 
-[Figure 13 Technical documentation hosted on GitHub and Cloudflare Pages; link1, link2. 57](#_Toc233723178)
+[Figure 13 Technical documentation hosted on GitHub and Cloudflare Pages; link1, link2.](#figure-13)
 
-[Figure 15 Example of applied filters in a search on the catalogue 61](#_Toc233723179)
+[Figure 15 Example of applied filters in a search on the catalogue](#figure-15)
 
-[Figure 16 The dataset found through SoilWise accessed on the source repository (Zenodo) 62](#_Toc233723180)
+[Figure 16 The dataset found through SoilWise accessed on the source repository (Zenodo)](#figure-16)
 
-[Figure 17 Example of finding SoilWise resources through the SoilCompanion 63](#_Toc233723181)
+[Figure 17 Example of finding SoilWise resources through the SoilCompanion](#figure-17)
 
-[Table 1. The thirteen SoilWise components. 27](#_Toc233722227)
+[Table 1. The thirteen SoilWise components.](#table-1)
 
-[Table 2 Scoring indicators for the search functionality 32](#_Toc233722228)
+[Table 2 Scoring indicators for the search functionality](#table-2)
 
-Executive Summary
+
+# Executive Summary
 
 This Executive Summary provides a concise overview of the SoilWise User Manual V1, its purpose, its intended readership, and the main findings of the work.
 
@@ -342,11 +344,13 @@ European soil knowledge is fragmented. A typical Mission Soil project publishes 
 
 SoilWise addresses this fragmentation by collecting (harvesting) metadata from major aggregators and from selected repositories on a recurring schedule, harmonising it to a single common model, and presenting it through a single search interface and a conversational assistant (chatbot). See Figure 3 for a schematic overview. The project does not replace existing repositories: it sits on top of them, providing a unified discovery layer that respects the autonomy of data providers and the established publication practices of the soil community.
 
+<a id="figure-1"></a>
+
 ![A diagram of a cylinder
 
 AI-generated content may be incorrect.](images/image3.png)
 
-Figure A schematic overview of the flow through the catalogue
+Figure 1 A schematic overview of the flow through the catalogue
 
 ## Who should read this manual?
 
@@ -381,6 +385,8 @@ Imagine that a Mission Soil project has just produced a new dataset on soil orga
 At regular intervals SoilWise's Harvester component retrieves information from a set of major European aggregators, OpenAIRE, CORDIS, the INSPIRE Geoportal, data.europa.eu, The Mission Soil Projects and other soil research funded projects ([ESDAC](https://esdac.jrc.ec.europa.eu/projects/Eufunded/Eufunded.html)), as well as a curated list of repositories and edge-of-scope sources (ISRIC, FAO, EEA). To avoid processing the same information repeatedly, the Harvester collects only information that is new or updated (changed) since the last time it checked these sources.
 
 Because the example SoilOlive dataset carries a DOI and references the project's Horizon Europe grant, OpenAIRE will aggregate it and link it to that grant, but not immediately: OpenAIRE refreshes its catalogue in periodic cycles, so a dataset can take from a few weeks up to a couple of months to surface there with its funding link in place. Only once that has happened can the SoilWise Harvester fetch the record, on its next run, into an internal staging area. (See Section 4.1, page 17, for how this timing works.). The image below shows the dashboard for administrators on which they monitor the progress of the harvesting tasks.
+
+<a id="figure-2"></a>
 
 ![](images/image4.png)
 
@@ -422,12 +428,14 @@ Throughout this journey, several components operate quietly in the background. T
 
 ![](images/image5.jpg)
 
+<a id="figure-3"></a>
 Figure 3 End-to-end flow of a soil metadata record through the SoilWise Catalogue and Soil Companion
 
 # The SoilWise soil information platform - The thirteen components
 
 This chapter describes each of the thirteen SoilWise components in plain language. The components are presented in the order in which they appear along the journey of a soil metadata record (introduced in Chapter 2), starting with the components that bring data into the platform, continuing with those that process and store it, then those that present it to users, and finally those that support the platform's operation and continuity. Each section follows the same structure: what the component does, why it exists, what it does today, who interacts with it, and what is planned for the remainder of the project.
 
+<a id="table-1"></a>
 Table 1. The thirteen SoilWise components.
 
 | **Component**                                                                              | **What it does**                                                                                                             |
@@ -476,7 +484,10 @@ The harvester is an automated process that runs inside the project's environment
 
 End users do not interact with the Harvester directly: it runs in the background and its output is what users see when they open the SoilWise Finder or use the Soil Companion. The Harvester is a back-end component, so direct interaction is limited to one maintenance role: the SoilWise Administrator, who monitors the health of the harvesting jobs through Grafana, schedules new pipelines, adjusts filters or endpoints when a source changes, and curates the list of repositories in scope through Github. Below the web interface of Github is displayed, where the configuration of the tasks are managed. Data providers (Mission Soil project data managers, in particular) are an indirect audience: the Harvester helps them making their records discoverable, if they follow the publishing guidelines offered in the catalogue interface.
 
+<a id="figure-4"></a>
+
 ![](images/image6.png)
+
 
 Figure 4 Configuration of the harvesters is managed via a configuration script in the SoilWise Github repository.
 
@@ -504,6 +515,7 @@ Wᵢ = The raw weight of a field if it is not empty.
 
 Wₜ = The total sum of all possible weights (170).
 
+<a id="table-2"></a>
 Table 2 Scoring indicators for the search functionality
 
 | **indicator**     | **Score (Wi)** |
@@ -534,7 +546,10 @@ Table 2 Scoring indicators for the search functionality
 
 Validation is primarily a tool for SoilWise administrators and for JRC data analysts: it gives them visibility into the overall quality of the catalogue's content and helps them prioritise outreach to data providers. The picture below shows a diagram within the dashboard. End users of the SoilWise Finder do not currently see validation results directly.
 
+<a id="figure-5"></a>
+
 ![](images/image7.png)
+
 
 Figure 5 Results of the completeness validation are displayed in an administrator dashboard
 
@@ -626,7 +641,10 @@ The two components are described separately below.
 - SoilVoc, a vocabulary on soil concepts and their relationships, integrating concepts from existing soil and adjacent vocabularies (AgroVoc, GEMET, GLOSIS, ISO 11074). SoilVoc is exposed through a public web interface ([SoilWise-he.github.io/soil-vocabs/)](https://soilwise-he.github.io/soil-vocabs/) and used by the SoilWise Catalogue, the Tabular Data Annotator, the SoilWise GeoPackage, and the Soil Companion.
 - Soil Health Knowledge Graph is a graph of soil-health concepts derived semi-automatically from a curated set of soil-health resources, then validated by experts. A final version has been published on [GitHub](https://github.com/soilwise-he/soil-health-knowledge-graph) (see Figure 6) and [Zenodo](https://zenodo.org/records/17739174).
 
+<a id="figure-6"></a>
+
 ![](images/image8.png)
+
 
 Figure 6 Soil Health Knowledge Graph published in Zenodo
 
@@ -634,7 +652,9 @@ Figure 6 Soil Health Knowledge Graph published in Zenodo
 
 Both components are primarily backend services, but their outputs reach users in many places. SoilVoc is visible via a public vocabulary browser and its matched keywords appear on each record's detail page and in the Finder filters. Soil scientists, vocabulary curators, and data providers interact with SoilVoc most directly. The SHKG is accessed via a SPARQL endpoint (sparql.SoilWise.wetransform.eu/sparql) and underpins the topical chips in the Soil Companion's Insight panel and semantic query expansion in the Finder; most end users encounter it indirectly through these features.
 
+<a id="figure-7"></a>
 ![](images/image9.png)
+
 
 Figure 7 A Visual representation of the knowledge graph is available via github.io
 
@@ -648,6 +668,7 @@ Both components are treated as research outputs and are not expected to reach a 
 
 The SoilWise Finder is the main web interface through which users discover and explore the content of the SoilWise Catalogue. It provides a search box, a set of filters, a map preview, a paginated list of results, and a detail page for each record. The Finder is what most people will see when they think of "SoilWise."
 
+<a id="figure-8"></a>
 ![](images/image10.png)
 
 Figure 8 The homepage of the SoilWise Catalogue
@@ -668,7 +689,9 @@ The current version of the Finder, accessible at catalogue.SoilWise-he.eu, offer
 - a resource preview (geographic extent and, when available, a thumbnail image);
 - download of search results to CSV.
 
+<a id="figure-9"></a>
 ![](images/image11.png)
+
 
 Figure 9 Search options and listing results in the SoilWise Catalogue
 
@@ -686,7 +709,9 @@ Work in the final phase of the project focuses on fine-tuning the Finder's usabi
 
 The Soil Companion (see Figure 10) is a conversational AI assistant or a soil-domain chatbot, that lets users ask questions about European soil data and soil health in natural language. Behind the scenes, it uses a large language model together with the SoilWise Catalogue, a soil knowledge graph, and external soil-data services to give answers that are grounded in actual European soil knowledge rather than in the language model's general training data alone.
 
+<a id="figure-10"></a>
 ![](images/image12.png)
+
 
 Figure 10. Soil Companion v2 screenshot, showing main conversation area and sidebar presenting Insight links dynamically based on the conversation for further exploration.
 
@@ -727,7 +752,9 @@ In addition to the technological and content-related developments, significant a
 
 The Data and Knowledge Publication Support Tools are a set of utilities that help people who produce soil data and knowledge to publish it in a way that fits with SoilWise and with the FAIR principles (see Figure 11). These tools are not part of the core catalogue (data flows through them on the way in, not after harvesting), but they make the catalogue's content richer and more interoperable.
 
+<a id="figure-11"></a>
 ![](images/image13.png)
+
 
 Figure 11 Data format conversion pathways in the SoilWise Publication Support tools.
 
@@ -883,15 +910,19 @@ A knowledge platform is only useful if its target users know that it exists, und
 
 A diverse set of materials has already been produced across multiple formats and platforms:
 
+<a id="figure-12"></a>
 ![](images/image14.png)
 
 ![](images/image15.png)
 
+
 Figure 12 FAIR data strategies and practical guides: [link1](https://zenodo.org/records/19450676), [link2](https://zenodo.org/records/17693227)
 
+<a id="figure-13"></a>
 ![](images/image16.png)
 
 ![](images/image17.png)
+
 
 Figure 13 Technical documentation hosted on GitHub and Cloudflare Pages; [link1](https://main.soilwise-documentation.pages.dev/), [link2](https://zenodo.org/records/19917022).
 
@@ -969,11 +1000,15 @@ The researcher clicks on a promising result. The detail page shows the available
 
 Once the researcher has identified a relevant dataset, they follow the link from the SoilWise detail page to the original source repository, such as Zenodo (see Figure 17) or another harvested repository. From there, they can access, download, or cite the dataset according to the conditions set by the data provider.
 
+<a id="figure-15"></a>
 ![](images/image20.png)
+
 
 Figure 15 Example of applied filters in a search on the catalogue
 
+<a id="figure-16"></a>
 ![](images/image21.png)
+
 
 Figure 16 The dataset found through SoilWise accessed on the source repository (Zenodo)
 
@@ -989,7 +1024,9 @@ A typical interaction looks like this:
 - **4\.** Follow the auto-generated links in the answer ,to SoilWise records, to vocabulary terms, to Wikipedia articles ,to dig deeper.
 - **5\.** Click thumbs up or thumbs down on each answer to give feedback, or indicate further feedback such as inappropriate, not relevant etc.. The feedback is logged and helps the project monitor the quality of the assistant.
 
+<a id="figure-17"></a>
 ![](images/image22.png)
+
 
 Figure 17 Example of finding SoilWise resources through the SoilCompanion
 
