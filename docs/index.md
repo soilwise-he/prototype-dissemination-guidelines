@@ -9,5 +9,6 @@ SoilWise is funded by the Horizon Europe research and innovation programme under
 Read the chapters in order for a complete overview, or jump directly to the section relevant to your role:
 
 - **New users** – start with Chapter 1.
-- **Policy makers** – focus on Chapter 2.
-- **Technical staff** – refer to the architecture and component chapters.
+- **Policy makers** – focus on Chapter X.
+- **Data Provider** – [Check our practical guidance](05-Guides/01-practical-guide-providers-v1/#page-1)
+- **Technical staff** – [refer to our technical documentation](https://soilwise-he.github.io/SoilWise-documentation/) 🔗.
