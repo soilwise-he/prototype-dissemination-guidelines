@@ -1,6 +1,6 @@
 # FAQ
 
-This page is a placeholder for common questions and answers.
+This page is a placeholder for a FAQ-style of navigation through subjects
 
 ## Frequently asked questions
 
