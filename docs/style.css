@@ -1,4 +1,4 @@
-/* SoilWise Bookdown stylesheet */
+/* SoilWise stylesheet */
 p.caption {
   color: #777;
   margin-top: 10px;
@@ -12,6 +12,39 @@ pre {
 }
 pre code {
   white-space: inherit;
+}
+
+.catalogue-entry {
+  display: grid;
+  grid-template-columns: minmax(220px, 300px) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.catalogue-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.75rem;
+  background: linear-gradient(180deg, rgba(0,0,0,0.02), rgba(0,0,0,0.06));
+  color: var(--md-default-fg-color--light);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.catalogue-copy h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.catalogue-copy p {
+  margin-top: 0.25rem;
 }
 
 .md-footer-meta__inner {
@@ -31,6 +64,10 @@ pre code {
 }
 
 @media screen and (max-width: 76.25em) {
+  .catalogue-entry {
+    grid-template-columns: 1fr;
+  }
+
   .md-footer-meta__inner {
     flex-direction: column;
   }
