@@ -29,7 +29,7 @@ SoilWise exists to solve this problem by:
 
 ## How to use this document
 
-Read the chapters in order for a complete overview, or jump to the chapter relevant to your role. The Finder and Soil Companion walkthroughs in Chapter \@ref(components) are self-contained and can be read independently.
+Read the chapters in order for a complete overview, or jump to the chapter relevant to your role. The Finder and Soil Companion walkthroughs in [Platform Components](03-components.md) are self-contained and can be read independently.
 
 ## How SoilWise works: the journey of a soil resource
 

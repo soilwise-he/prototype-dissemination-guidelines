@@ -1,0 +1,24 @@
+site_name: SoilWise Dissemination & Guidelines
+site_description: User Manual and Dissemination Guidelines for the SoilWise Catalogue (D4.6)
+site_url: https://soilwise-he.github.io/prototype-dissemination-guidelines/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.indexes
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - attr_list
+
+extra_css:
+  - style.css

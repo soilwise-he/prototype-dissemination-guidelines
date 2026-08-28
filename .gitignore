@@ -1,15 +1,16 @@
-# R artifacts
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-*.Rproj
-
-# Bookdown build artifacts (auto-generated)
-_bookdown_files/
-packages.bib
-*.knit.md
-*.utf8.md
-
 # Keep docs/ (used for GitHub Pages)
 # !docs/
+
+# Python artifacts
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# # PDF intake runtime artifacts
+# pdf-to-images/inbox/
+# pdf-to-images/archive/
+# pdf-to-images/rejected/
+
+# MkDocs build output
+site/

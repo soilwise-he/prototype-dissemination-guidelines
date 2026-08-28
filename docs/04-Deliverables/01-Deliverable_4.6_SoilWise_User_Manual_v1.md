@@ -1,12 +1,16 @@
-![A white background with text  Description automatically generated](images/image1.jpg)
+---
+title: D4.6 User Manual V1
+---
 
-![Blue text on a black background  Description automatically generated](images/image2.png)
+![SoilWise Frontpage](../images/image1.jpg)
+
+![EU Logo](../images/image2.png)
 
 This project has received funding from the Horizon Europe research and innovation programme under Grant Agreement No 101112838.
 
 M34/June 2026
 
-D4.6 User Manual V1
+# D4.6 User Manual V1
 
 | Acronym                     | SoilWise                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -139,6 +143,8 @@ Glossary
 | **Vector embeddings**                    | Dense numerical representations of text that capture semantic meaning, allowing similar concepts to be found even when they use different words. Planned for semantic search in the SoilWise Finder and Soil Companion.                                                                                                                                                                                                                                |
 | **Virtuoso**                             | An open-source triple store and SPARQL endpoint software used by SoilWise to store the metadata knowledge graph (the RDF representation of harvested records) and to support semantic queries. Distinct from the Soil Health Knowledge Graph (SHKG).                                                                                                                                                                                                   |
 | **WUR AgroDataCube**                     | A Wageningen University & Research service providing field-level agricultural and soil data for the Netherlands, optionally consulted by the Soil Companion for localised queries.                                                                                                                                                                                                                                                                     |
+
+
 # Table of Content
 
 [1 Introduction](#introduction)
@@ -173,27 +179,27 @@ Glossary
 
 [4.2 Metadata Validation](#metadata-validation)
 
-[4.3 Metadata Augmentation](#metadata-augmentation)
+[4.3 Metadata Augmentation](#comp_augmentation)
 
-[4.4 Repository Storage](#repository-storage)
+[4.4 Repository Storage](#comp_storage)
 
-[4.5 Soil Health Knowledge Graph and SoilVoc](#soil-health-knowledge-graph-and-soilvoc)
+[4.5 Soil Health Knowledge Graph and SoilVoc](#comp_kg)
 
-[4.6 SoilWise Finder (the Metadata Catalogue)](#soilwise-finder-the-metadata-catalogue)
+[4.6 SoilWise Finder (the Metadata Catalogue)](#comp_finder)
 
-[4.7 SoilWise Companion](#soilwise-companion)
+[4.7 SoilWise Companion](#comp_companion)
 
-[4.8 Data and Knowledge Publication Support Tools](#data-and-knowledge-publication-support-tools)
+[4.8 Data and Knowledge Publication Support Tools](#comp_pubtools)
 
-[4.9 Metadata Authoring](#metadata-authoring)
+[4.9 Metadata Authoring](#comp_authoring)
 
-[4.10 System Usage and Monitoring (including the Administration Console)](#system-usage-and-monitoring-including-the-administration-console)
+[4.10 System Usage and Monitoring (including the Administration Console)](#comp_monitoring)
 
-[4.11 Access Control](#access-control)
+[4.11 Access Control](#comp_access)
 
-[4.12 EUSO Integration](#euso-integration)
+[4.12 EUSO Integration](#comp_euso)
 
-[4.13 Dissemination and Guidelines](#dissemination-and-guidelines)
+[4.13 Dissemination and Guidelines](#comp_dissemination)
 
 [5 Using SoilWise: practical walkthroughs](#using-soilwise-practical-walkthroughs)
 
@@ -346,7 +352,7 @@ SoilWise addresses this fragmentation by collecting (harvesting) metadata from m
 
 <a id="figure-1"></a>
 
-![schematic overview of the flow through the catalogue](images/image3.png)
+![schematic overview of the flow through the catalogue](../images/image3.png)
 
 Figure 1 A schematic overview of the flow through the catalogue
 
@@ -386,7 +392,7 @@ Because the example SoilOlive dataset carries a DOI and references the project's
 
 <a id="figure-2"></a>
 
-![](images/image4.png)
+![](../images/image4.png)
 
 Figure 2 Dashboard view of the scheduled harvester and augmentation workflows.
 
@@ -424,7 +430,7 @@ A different user, perhaps a policy officer, asks the Soil Companion, an AI-based
 
 Throughout this journey, several components operate quietly in the background. The Repository Storage component facilitates the storage. SoilVoc maintains the soil-domain vocabularies that the augmentation, catalogue and the Soil Companion rely on; the Soil Health Knowledge Graph (SHKG) provides the broader semantic structure of soil-health concepts. The System Usage and Monitoring component tracks the health of every service and the usage patterns of every user. The Access Control component governs who can administer the platform and (eventually) who can authenticate with the Soil Companion. The Data and Knowledge Publication Support tools help soil data providers prepare their data and metadata in a FAIR and SoilWise-friendly way before it is ever harvested \[see also section 4.8, page 33\]. The Dissemination and Guidelines component produces the documents, videos, and templates, including this manual, that help users and providers understand and engage with the platform. And the EUSO Integration component ensures that, before the end of the project, the entire platform can be handed over to JRC and continue to operate as part of EUSO.
 
-![](images/image5.jpg)
+![](../images/image5.jpg)
 
 <a id="figure-3"></a>
 Figure 3 End-to-end flow of a soil metadata record through the SoilWise Catalogue and Soil Companion
@@ -484,7 +490,7 @@ End users do not interact with the Harvester directly: it runs in the background
 
 <a id="figure-4"></a>
 
-![](images/image6.png)
+![](../images/image6.png)
 
 
 Figure 4 Configuration of the harvesters is managed via a configuration script in the SoilWise Github repository.
@@ -546,7 +552,7 @@ Validation is primarily a tool for SoilWise administrators and for JRC data anal
 
 <a id="figure-5"></a>
 
-![](images/image7.png)
+![](../images/image7.png)
 
 
 Figure 5 Results of the completeness validation are displayed in an administrator dashboard
@@ -555,7 +561,7 @@ Figure 5 Results of the completeness validation are displayed in an administrato
 
 Two main developments are foreseen both within and beyond the SoilWise project timeframe. First, the completeness check will be refined to take account of the record's resource type (a journal article does not need the same metadata as a dataset), and the scoring will be reviewed in light of what the Metadata Augmentation component is able to fill in automatically. Second, regarding the previously planned INSPIRE compliance validation, a decision was made to halt any further development. This is due to the fact that the European Commission officially abandoned the INSPIRE validation without prior notice. Consequently, INSPIRE validation has been completely dropped from the SoilWise pipeline and the future roadmap.
 
-## Metadata Augmentation
+## Metadata Augmentation {#comp_augmentation}
 
 #### What it does
 
@@ -588,7 +594,7 @@ To support transparency and trust, SoilWise will provide functionality to trace 
 
 Several augmentation routes are being added or improved. Keyword extraction directly from the abstract and record's full text (not just the keyword field) is being investigated, in collaboration with the SHKG and SoilVoc components. A spatial scope analyser is in development for records that lack any explicit geographic information. A tagging mechanism for European Soil Observatory High-Value Datasets is being designed with JRC. Across all these routes, a generalised target schema for augmentation data is being designed jointly with the Repository Storage component, and a user-facing display of augmented information is being designed jointly with the SoilWise Finder to provide further insights.
 
-## Repository Storage
+## Repository Storage {#comp_storage}
 
 #### What it does
 
@@ -622,7 +628,7 @@ Repository Storage is a backend component, with no direct user interaction. Its 
 
 Two extensions are planned. First, full-text documents, such as PDFs linked from metadata records, will again be stored and indexed; this was temporarily paused while the data model was being refactored. Second, the Solr index will be expanded to store vector representations of document fragments, enabling semantic search and supporting the retrieval-based generation pipeline behind the Soil Companion. The Cycle 3 vision also flags a longer-term option to introduce a dedicated soil vector database if Solr's vector support proves insufficient.
 
-## Soil Health Knowledge Graph and SoilVoc
+## Soil Health Knowledge Graph and SoilVoc {#comp_kg}
 
 #### What it does
 
@@ -641,7 +647,7 @@ The two components are described separately below.
 
 <a id="figure-6"></a>
 
-![](images/image8.png)
+![](../images/image8.png)
 
 
 Figure 6 Soil Health Knowledge Graph published in Zenodo
@@ -651,7 +657,7 @@ Figure 6 Soil Health Knowledge Graph published in Zenodo
 Both components are primarily backend services, but their outputs reach users in many places. SoilVoc is visible via a public vocabulary browser and its matched keywords appear on each record's detail page and in the Finder filters. Soil scientists, vocabulary curators, and data providers interact with SoilVoc most directly. The SHKG is accessed via a SPARQL endpoint (sparql.SoilWise.wetransform.eu/sparql) and underpins the topical chips in the Soil Companion's Insight panel and semantic query expansion in the Finder; most end users encounter it indirectly through these features.
 
 <a id="figure-7"></a>
-![](images/image9.png)
+![](../images/image9.png)
 
 
 Figure 7 A Visual representation of the knowledge graph is available via github.io
@@ -660,14 +666,14 @@ Figure 7 A Visual representation of the knowledge graph is available via github.
 
 Both components are treated as research outputs and are not expected to reach a fully production-ready state by project end. For SoilVoc: the frontend is migrating to a Skosmos-based interface; coverage is being extended to more soil sub-domains; linkage to the SoilWise GeoPackage is under way; and post-project governance and sustainability are being discussed. For the SHKG: the final version (11,719 triples, 2,017 entities) has been published on Zenodo (DOI: 10.5281/zenodo.15596414); ongoing work focuses on improving integration with keyword matching in Metadata Augmentation, query expansion in the Finder, and grounded retrieval in the Soil Companion. Exploration of whether and how the two components should be more tightly linked is also planned.
 
-## SoilWise Finder (the Metadata Catalogue)
+## SoilWise Finder (the Metadata Catalogue) {#comp_finder}
 
 #### What it does
 
 The SoilWise Finder is the main web interface through which users discover and explore the content of the SoilWise Catalogue. It provides a search box, a set of filters, a map preview, a paginated list of results, and a detail page for each record. The Finder is what most people will see when they think of "SoilWise."
 
 <a id="figure-8"></a>
-![](images/image10.png)
+![](../images/image10.png)
 
 Figure 8 The homepage of the SoilWise Catalogue
 
@@ -688,7 +694,7 @@ The current version of the Finder, accessible at catalogue.SoilWise-he.eu, offer
 - download of search results to CSV.
 
 <a id="figure-9"></a>
-![](images/image11.png)
+![](../images/image11.png)
 
 
 Figure 9 Search options and listing results in the SoilWise Catalogue
@@ -701,14 +707,14 @@ The Finder is the most visible component of SoilWise (see Figure 9) and serves t
 
 Work in the final phase of the project focuses on fine-tuning the Finder's usability, refining filters and ranking strategies, displaying augmented information visibly (matched keywords, translations, spatial augmentations, link-liveliness status), distinguishing original from augmented metadata, and re-implementing full-text search across documents referred to by metadata records. A reanalysis of user expectations based on demonstrations and validation feedback is planned, with intensive coordination with the developers of the augmentation, storage, the harvester, and knowledge graph components. The JRC's role is particularly important here as the UI of the catalogue will be the main interface in the EUSO after the integration.
 
-## SoilWise Companion
+## SoilWise Companion {#comp_companion}
 
 #### What it does
 
 The Soil Companion (see Figure 10) is a conversational AI assistant or a soil-domain chatbot, that lets users ask questions about European soil data and soil health in natural language. Behind the scenes, it uses a large language model together with the SoilWise Catalogue, a soil knowledge graph, and external soil-data services to give answers that are grounded in actual European soil knowledge rather than in the language model's general training data alone.
 
 <a id="figure-10"></a>
-![](images/image12.png)
+![](../images/image12.png)
 
 
 Figure 10. Soil Companion v2 screenshot, showing main conversation area and sidebar presenting Insight links dynamically based on the conversation for further exploration.
@@ -744,14 +750,14 @@ The development focuses on:
 
 In addition to the technological and content-related developments, significant attention will be devoted to human evaluation, AI guardrails, and benchmarking of the final system against the established ethical, safety, sustainability, and multilanguage criteria.
 
-## Data and Knowledge Publication Support Tools
+## Data and Knowledge Publication Support Tools {#comp_pubtools}
 
 #### What it does
 
 The Data and Knowledge Publication Support Tools are a set of utilities that help people who produce soil data and knowledge to publish it in a way that fits with SoilWise and with the FAIR principles (see Figure 11). These tools are not part of the core catalogue (data flows through them on the way in, not after harvesting), but they make the catalogue's content richer and more interoperable.
 
 <a id="figure-11"></a>
-![](images/image13.png)
+![](../images/image13.png)
 
 
 Figure 11 Data format conversion pathways in the SoilWise Publication Support tools.
@@ -785,7 +791,7 @@ These tools are designed for soil data providers and stewards, typically researc
 
 The vision for this set of tools, going forward, is to make them more usable and more connected. Specifically: improving the SoilVoc frontend, extending SoilVoc to cover more soil sub-domains, providing standard mappings in SoilVoc and in Hale Studio, linking the tools to each other (so that, for example, the GeoPackage can read vocabularies directly from SoilVoc), API access to all data via STA, improving user friendliness, and providing example workflows that demonstrate how to use each tool in a real publication scenario.
 
-## Metadata Authoring
+## Metadata Authoring {#comp_authoring}
 
 #### What it does
 
@@ -811,7 +817,7 @@ The component is used primarily by SoilWise administrators and by selected data 
 
 The exact implementation is still under discussion with JRC. Three potential approaches are being evaluated: (1) lightweight metadata tagging, letting users attach tags or annotations to existing harvested datasets without altering the original records; (2) Excel-based ingestion, a structured workflow in which metadata is compiled in a standard Excel template and then imported into the database; and (3) a dedicated metadata editor, a stand-alone interface backed by a separate database for manually authored records, isolating them from the harvested data to avoid provenance conflicts. The metadata-tagging approach is being investigated alongside the Metadata Augmentation component, and the DOI-suggestion functionality offered by the DOI Resolution Widget will be linked to whichever approach is chosen.
 
-## System Usage and Monitoring (including the Administration Console)
+## System Usage and Monitoring (including the Administration Console) {#comp_monitoring}
 
 #### What it does
 
@@ -840,7 +846,7 @@ The primary audience is SoilWise administrators (right now, the consortium opera
 
 Three directions are in scope. First, the team is discussing with JRC which of the open-source tools (Prometheus, Grafana, Loki, Alertmanager) are compatible with EUSO's infrastructure and operations, and whether any adjustments to the software stack are needed. Second, the migration of the monitoring stack from the WeTransform Kubernetes cluster to the JRC infrastructure is being planned. Third, user statistics are being extended (currently in progress, using either Matomo or Google Analytics) to give a fuller picture of catalogue usage.
 
-## Access Control
+## Access Control {#comp_access}
 
 #### What it does
 
@@ -868,7 +874,7 @@ Access Control is invisible to the casual visitor of the catalogue, most of the 
 
 The principal upcoming change is the integration of EU Login (the European Commission's central authentication service, also known as ECAS) as an additional identity provider, so that European public sector users can access SoilWise services with their existing EU Login credentials and without creating a separate account. Authentication for the Soil Companion will also be brought under the same access control mechanism. Beyond that, mechanisms for data access and usage control following the EC Data Spaces concept of data sovereignty are being scoped in discussion with JRC.
 
-## EUSO Integration
+## EUSO Integration {#comp_euso}
 
 #### What it does
 
@@ -894,7 +900,7 @@ EUSO Integration is a stewardship component: its key stakeholders are the Joint 
 
 The remaining work is structured around three steps. First, all components are being moved to the Production environment (soillive), which is under way. Second, JRC hosting requirements are being clarified through direct discussions: JRC is examining Kubernetes, but the existing JRC infrastructure has a single-host, non-root constraint that makes a standard Kubernetes deployment difficult; k3s (a lightweight Kubernetes distribution) is being proposed as an alternative that can run under these constraints. Third, the handover timeline and scope are to be agreed with JRC, with initial agreement expected in early July 2026; the final handover documentation will describe which components transfer, the operational model, and support arrangements.
 
-## Dissemination and Guidelines
+## Dissemination and Guidelines {#comp_dissemination}
 
 #### What it does
 
@@ -909,17 +915,17 @@ A knowledge platform is only useful if its target users know that it exists, und
 A diverse set of materials has already been produced across multiple formats and platforms:
 
 <a id="figure-12"></a>
-![](images/image14.png)
+![](../images/image14.png)
 
-![](images/image15.png)
+![](../images/image15.png)
 
 
 Figure 12 FAIR data strategies and practical guides: [link1](https://zenodo.org/records/19450676), [link2](https://zenodo.org/records/17693227)
 
 <a id="figure-13"></a>
-![](images/image16.png)
+![](../images/image16.png)
 
-![](images/image17.png)
+![](../images/image17.png)
 
 
 Figure 13 Technical documentation hosted on GitHub and Cloudflare Pages; [link1](https://main.soilwise-documentation.pages.dev/), [link2](https://zenodo.org/records/19917022).
@@ -937,9 +943,9 @@ Figure 13 Technical documentation hosted on GitHub and Cloudflare Pages; [link1]
 
 - Videos, webinars, and presentations, such as the Geopackage demo on [Zenodo](https://zenodo.org/records/19632096) or the webinars recordings published on [Youtube](https://zenodo.org/records/19632096).
 
-![](images/image18.png)
+![](../images/image18.png)
 
-![](images/image19.png)
+![](../images/image19.png)
 
 Figure 14 Postcard targeting data providers and _users_
 
@@ -999,13 +1005,13 @@ The researcher clicks on a promising result. The detail page shows the available
 Once the researcher has identified a relevant dataset, they follow the link from the SoilWise detail page to the original source repository, such as Zenodo (see Figure 17) or another harvested repository. From there, they can access, download, or cite the dataset according to the conditions set by the data provider.
 
 <a id="figure-15"></a>
-![](images/image20.png)
+![](../images/image20.png)
 
 
 Figure 15 Example of applied filters in a search on the catalogue
 
 <a id="figure-16"></a>
-![](images/image21.png)
+![](../images/image21.png)
 
 
 Figure 16 The dataset found through SoilWise accessed on the source repository (Zenodo)
@@ -1023,7 +1029,7 @@ A typical interaction looks like this:
 - **5\.** Click thumbs up or thumbs down on each answer to give feedback, or indicate further feedback such as inappropriate, not relevant etc.. The feedback is logged and helps the project monitor the quality of the assistant.
 
 <a id="figure-17"></a>
-![](images/image22.png)
+![](../images/image22.png)
 
 
 Figure 17 Example of finding SoilWise resources through the SoilCompanion

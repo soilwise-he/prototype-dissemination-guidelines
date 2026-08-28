@@ -1,0 +1,626 @@
+--- Page 001 ---
+This project has received funding from
+the
+Horizon
+Europe
+research
+and
+innovation
+programme
+under
+Grant
+Agreement No 101112838
+SoilWise practical guide for data & 
+knowledge providers : 
+FAIR publications using Zenodo
+- Application to observational data and websites -
+Céline Blitz Frayret (Cirad) et al.
+V1 - November 2025
+DOI : 10.5281/zenodo.17693227
+
+--- Page 002 ---
+FAIR publication using Zenodo
+3-1. Prepare / 
+upload your
+data files
+2. Fill your
+metadata
+1. Choose your
+repository
+4. Publish / 
+check on 
+SoilWise
+3-2. Prepare / 
+upload your
+website source files
+
+--- Page 003 ---
+FAIR publication using Zenodo
+1. Choose your
+repository
+
+--- Page 004 ---
+1. Choose your
+repository
+FAIR publication using Zenodo
+SoilWise is connected to thousands
+of source repositories:
+No deposits on SoilWise
+CIRAD
+RDG
++ many others
+ESDAC
+INSPIRE
+CORDIS
+data.europe.eu
+
+--- Page 005 ---
+1. Choose your
+repository
+FAIR publication using Zenodo
+But  not all of them have entry 
+points for deposits:
+No deposits on SoiWise
+CIRAD
+RDG
++ many others
+ESDAC
+INSPIRE
+CORDIS
+data.europe.eu
+Examples of repositories 
+suitable for deposits
+
+--- Page 006 ---
+1. Choose your
+repository
+FAIR publication using Zenodo
+Find which repository is most suitable:
+CORDIS
+Projects'
+repositories
+Knowledge
+Websites / 
+webservices
+Peer review
+journal articles
+EU project 
+reports
+sources files 
+extraction
+Non 
+predatory
+editors
+Data
+PDF documents / 
+videos / images
+Softwares / 
+Source files
+Find repository
+https://explore.openaire.eu/
+participate/deposit/search
+Find repository
+
+--- Page 007 ---
+FAIR publication using Zenodo
+Organization of repositories
+https://dataverse.cirad.fr/
+Generic fields
+(general info)
+https://zenodo.org
+Files upload
+(soil info)
+2. Fill your
+metadata
+Generic fields (Dublin core 
+metadata) are not sufficient 
+to describe soil specificities. 
+These information should be 
+inserted through the file 
+upload section.
+1. Choose your
+repository
+3. Prepare/upload
+your data/website
+source files
+
+--- Page 008 ---
+FAIR publication using Zenodo
+1. Choose your
+repository
+To start with Zenodo: log-in and click on 'New upload'
+
+--- Page 009 ---
+FAIR publication using Zenodo
+2. Fill your
+metadata
+
+--- Page 010 ---
+FAIR data publication using Zenodo
+2. Fill your
+metadata
+Save your draft often.
+
+--- Page 011 ---
+FAIR publication using Zenodo
+2. Fill your
+metadata
+Files
+Basic information
+Title and description
+▪
+DOI - How to reserve a DOI for inclusion in files before publication
+▪
+Resource type - Select the right resource type
+▪
+Titles - Add main title and additional titles
+▪
+Publication date - Use date ranges or imprecise dates
+▪
+Creators - Add creators/authors for your record
+▪
+Description - Add abstracts and notes
+▪
+Licenses - Choose a license for your record
+▪
+Copyright
+https://help.zenodo.org/docs/deposit/describe-records
+… soil ….
+/ Title
+Add the 'soil' keyword in the 
+abstract (description) or in the title:
+To ensure a harvest by
+
+--- Page 012 ---
+Funding
+FAIR publication using Zenodo
+2. Fill your
+metadata
+Files
+Basic information
+Recommended information
+▪
+Add standard award/grant
+▪
+Add custom funding
+Funding
+https://help.zenodo.org/docs/deposit/describe-records/funding/
+    Add the grant agreement number:
+-
+Choose 'standard grant/award' with the 
+organization 'European Commission (BE)'
+-
+Type the name of your EC project and select it in 
+the proposed list. The GA
+  number will appear.
+To ensure a harvest by
+This strategy could be
+revised in the future, 
+guidances will be updated
+accordingly
+
+--- Page 013 ---
+FAIR publication using Zenodo
+2. Fill your
+metadata
+Files
+Basic information
+▪
+DOI - How to reserve a DOI for inclusion in files before publication
+▪
+Resource type - Select the right resource type
+▪
+Titles - Add main title and additional titles
+▪
+Publication date - Use date ranges or imprecise dates
+▪
+Creators - Add creators/authors for your record
+▪
+Description - Add abstracts and notes
+▪
+Licenses - Choose a license for your record
+▪
+Copyright
+Licenses and copyright
+Discuss with your collaborators to choose 
+the most open license, while respecting 
+privacy, ethical and legal constraints.
+• Software: 
+https://choosealicense.com/
+• Data: Creative Commons chooser 
+https://creativecommons.org/chooser/
+• Research data: OpenAire guide for researchers 
+https://www.openaire.eu/how-do-i-license-my-research-data
+Several recommendations:
+https://help.zenodo.org/docs/deposit/describe-records/licenses/
+
+--- Page 014 ---
+FAIR publication using Zenodo
+2. Fill your
+metadata
+Files
+Basic information
+▪
+DOI - How to reserve a DOI for inclusion in files before publication
+▪
+Resource type - Select the right resource type
+▪
+Titles - Add main title and additional titles
+▪
+Publication date - Use date ranges or imprecise dates
+▪
+Creators - Add creators/authors for your record
+▪
+Description - Add abstracts and notes
+▪
+Licenses - Choose a license for your record
+▪
+Copyright
+Licenses and copyright
+Your record can be published with a 
+restricted access for the files (appropriate 
+license must be indicated)
+https://help.zenodo.org/docs/deposit/describe-records/licenses/
+
+--- Page 015 ---
+FAIR publication using Zenodo
+2. Fill your
+metadata
+Files
+Basic information
+Recommended information
+▪
+Contributors - Add persons/organisations that do not appear in 
+the citation
+▪
+Keywords and subjects - Choose keywords and subjects for your 
+record
+▪
+Languages
+▪
+Dates
+▪
+Version
+▪
+Publisher
+Keywords and subjects
+https://help.zenodo.org/docs/deposit/describe-records
+3 controlled 
+vocabularies are 
+supported:
+Write your term in the 
+field and if available, 
+select it from a 
+controlled 
+vocabulary in 
+parenthesis:
+Else, write a 
+custom term
+
+--- Page 016 ---
+FAIR publication using Zenodo
+2. Fill your
+metadata
+Files
+Alternate identifiers
+Related works
+References
+Software
+Publishing information
+Conference
+Domain specific field
+Additional information related to the deposited 
+record. More information:
+https://help.zenodo.org/docs/deposit/
+
+--- Page 017 ---
+FAIR publication using Zenodo
+3.1 Prepare/upload
+your data files
+
+--- Page 018 ---
+FAIR publication using Zenodo
+Humans
+Machines
+CSV files
+JSON files
+Soil data provider
+Ensure a minimum of 
+informations and 
+appropriate format for 
+humans and machines
+A CSV and a JSON version of data should be 
+uploaded on the source repository
+3.1 Prepare/upload
+your data files
+
+--- Page 019 ---
+FAIR publication using Zenodo
+Soil data provider
+Ensure a minimum of 
+informations and 
+appropriate format for 
+humans and machines
+A CSV and a JSON version of data should be 
+uploaded on the source repository
+3.1 Prepare/upload
+your data files
+1 – Data content
+2 – Data encoding: CSV 
+and JSON files 
+preparation from Excel 
+for an upload on 
+Zenodo
+
+--- Page 020 ---
+FAIR publication using Zenodo
+1 – Data content
+Example: soil data observations
+Create a CSV file (or Excel sheet
+to be converted in CSV) 
+listing these metadata
++
+!
+Avoid creating new vocabularies
+for a project, sustainability will not 
+be garanteed.
+3.1 Prepare/upload
+your data files
+✓Coordinates
+✓Coordinate Reference System (CRS)
+✓ Observed Property - ideally with URI
+✓ Measurement Procedure - ideally with URI
+✓ Unit of Measurement 
+✓ Sampling date
+✓ Measurement date
+Minimum informations
+
+--- Page 021 ---
+FAIR publication using Zenodo
+1 – Data content
+Example: soil data observations
+✓Coordinates
+✓Coordinate Reference System (CRS)
+✓ Observed Property - ideally with URI
+✓ Measurement Procedure - ideally with URI
+✓ Unit of Measurement 
+✓ Sampling date
+✓ Measurement date
+Minimum informations
+!
+Avoid creating new vocabularies
+for a project, sustainability will not 
+be garanteed.
+3.1 Prepare/upload
+your data files
+VOCABULARIES : find a URI on Agrovoc
+https://agrovoc.fao.org/browse/en
+URI
+Term
+
+--- Page 022 ---
+FAIR publication using Zenodo
+1 – Data content
+Example: soil data observations
+!
+Avoid creating new vocabularies
+for a project, sustainability will not 
+be garanteed.
+3.1 Prepare/upload
+your data files
+VOCABULARIES : find a URI on GEMET
+https://www.eionet.europa.eu/gemet/en/themes/
+URI
+Term
+✓Coordinates
+✓Coordinate Reference System (CRS)
+✓ Observed Property - ideally with URI
+✓ Measurement Procedure - ideally with URI
+✓ Unit of Measurement 
+✓ Sampling date
+✓ Measurement date
+Minimum informations
+
+--- Page 023 ---
+FAIR publication using Zenodo
+1 – Data content
+Example: soil data observations
+✓Coordinates
+✓Coordinate Reference System (CRS)
+✓ Observed Property - ideally with URI
+✓ Measurement Procedure - ideally with URI
+✓ Unit of Measurement 
+✓ Sampling date
+✓ Measurement date
+Minimum informations
+!
+Avoid creating new vocabularies
+for a project, sustainability will not 
+be garanteed.
+3.1 Prepare/upload
+your data files
+VOCABULARIES : find a IRI on GloSIS
+https://glosis-ld.github.io/glosis/
+IRI
+
+--- Page 024 ---
+FAIR publication using Zenodo
+-
+Export each Excel sheet in a 
+separate CSV datafile
+-
+Each CSV datafile will have to be
+uploaded on the repository 
+data1
+data2
+data1.csv
+data2.csv
+Example: 1 Excel file with further sheets inside 
+3.1 Prepare/upload
+your data files
+2 – Data encoding: CSV files preparation from Excel
+
+--- Page 025 ---
+FAIR publication using Zenodo
+-
+Export each Excel sheet in a 
+separate CSV datafile
+-
+Each CSV datafile will have to be
+uploaded on the repository 
+data1
+data2
+data1.csv
+data2.csv
+Example: 2 Excel files with one or further sheets inside
+2 – Data encoding: CSV files preparation from Excel
+3.1 Prepare/upload
+your data files
+
+--- Page 026 ---
+FAIR publication using Zenodo
+2 – Data encoding: JSON files preparation from CSV
+3.1 Prepare/upload
+your data files
+https://dataannotator-swr.streamlit.app/
+
+--- Page 027 ---
+FAIR publication using Zenodo
+3 – Data files upload
+data1.csv
+data2.csv
+file.json
+3.1 Prepare/upload
+your data files
+
+--- Page 028 ---
+FAIR publication using Zenodo
+4 – Files visibility
+Once files are uploaded, they can be publicly available or 
+restricted with access upon request or embargo (in that 
+case, only filled metadata are visible by public).
+!
+The license should be in agreement 
+with the files visibility
+3.1 Prepare/upload
+your data files
+
+--- Page 029 ---
+FAIR publication using Zenodo
+3.2 Prepare/upload
+your website
+source files
+
+--- Page 030 ---
+FAIR publication using Zenodo
+3.2 Prepare/upload
+your website
+source files
+Curiosity Kit website: https://curiosoil.eu/curiosity-kit/
+Publication of a Zenodo record hosting the source files 
+of a website / webservice
+Source files
+Loss of interactivity
+Possibility for future 
+deployments on 
+different server
+X
+
+--- Page 031 ---
+FAIR publication using Zenodo
+1 – Extract the website source files
+3.2 Prepare/upload
+your website
+source files
+1)
+Download and install the Httrack tool:
+https://www.httrack.com/page/1/en/index.html
+2) Open Httrack 
+on your local 
+computer:
+3) Proceed to the 5 steps 
+of the Httrack manual:
+https://www.httrack.com/html/step.html
+
+--- Page 032 ---
+FAIR publication using Zenodo
+1 – Extract the website source files
+3.2 Prepare/upload
+your website
+source files
+Main steps of the Httrack software:
+Choose a new repository name where the source files will be stored
+Choose the location of this repository on your computer
+Click 'Next'
+Write the URL of the website from which to extract the source files
+Click 'Next' and 'Finish'
+
+--- Page 033 ---
+FAIR publication using Zenodo
+2 – Upload the source files on Zenodo
+3.2 Prepare/upload
+your website
+source files
+Create a zip file of 
+the repository 
+hosting the source 
+files and upload it 
+on Zenodo.
++ Add a 
+documentation 
+file if needed.
+sources.zip
+
+--- Page 034 ---
+FAIR publication using Zenodo
+4. Publish / 
+check on SoilWise
+
+--- Page 035 ---
+FAIR publication using Zenodo
+4. Publish / check 
+on SoilWise
+Click on 'publish' and confirm the publication. 
+!
+In case of problem with your files 
+AFTER the publication, refer to:
+https://help.zenodo.org/docs/deposit/
+manage-files/#modify
+https://help.zenodo.org/docs/deposit/create-new-upload/#publish
+Note: 
+-
+a metadata modification/adds-on can be done without 
+creating a new version
+-
+A file modification/deletion requires a new version (but 
+the previous version remains available)
+1 - Publication
+
+--- Page 036 ---
+FAIR publication using Zenodo
+4. Publish / check 
+on SoilWise
+DOI
+1 - Publication
+The record is immediately published on Zenodo with a DOI:
+
+--- Page 037 ---
+FAIR publication using Zenodo
+4. Publish / check 
+on SoilWise
+2 – Verification on SoilWise
+Copy-paste your record title or DOI in the search bar 
+and click on 'Search':
+https://repository.soilwise-he.eu
+7 days
+Search
+
+--- Page 038 ---
+FAIR publication using Zenodo
+4. Publish / check 
+on SoilWise
+2 – Verification on SoilWise
+If your record is discoverable through SoilWise:
+If your record is not discoverable through SoilWise or 
+not correctly displayed:
+soilwise@biosense.rs

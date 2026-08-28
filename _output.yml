@@ -3,7 +3,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">SoilWise Dissemination Guidelines</a></li>
+        <li><a href="./">SoilWise Dissemination & Guidelines</a></li>
       after: |
         <li><a href="https://www.SoilWise-he.eu" target="blank">SoilWise Project</a></li>
     edit: https://github.com/soilwise-he/prototype-dissemination-guidelines/edit/main/%s
