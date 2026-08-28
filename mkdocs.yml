@@ -5,9 +5,14 @@ site_url: https://soilwise-he.github.io/prototype-dissemination-guidelines/
 docs_dir: docs
 site_dir: site
 
+repo_name: soilwise-he/prototype-dissemination-guidelines
+repo_url: https://github.com/soilwise-he/prototype-dissemination-guidelines
+
 theme:
   name: material
   custom_dir: overrides
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.expand
     - navigation.indexes
