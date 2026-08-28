@@ -7,6 +7,9 @@ venv/
 __pycache__/
 *.pyc
 
+# VS Code workspace files
+*.code-workspace
+
 # # PDF intake runtime artifacts
 # pdf-to-images/inbox/
 # pdf-to-images/archive/
