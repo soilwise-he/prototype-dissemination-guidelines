@@ -88,12 +88,8 @@ With this setup, you do not need to point Pages to `/docs`, and the root `README
 
 Source files are the `.md` files in `docs/`. Edit them and rebuild the site using the instructions above.
 
-Deliverables are grouped under the folder-based section `docs/04-Deliverables/`. Add new deliverable files in that folder, summarize them in `docs/04-Deliverables/index.md`, and keep the ordering rules in the local `.pages` files. This avoids a large `nav` block in `mkdocs.yml` while still giving predictable ordering and labels.
+Deliverables are grouped under the folder-based section `docs/04-Deliverables/`. Add new deliverable files in that folder, summarize them in `docs/04-Deliverables/index.md`, and keep the ordering rules in the local `.pages` files or use indices.
 
-## Note on legacy files
-
-This repository still contains `_bookdown.yml` and `_output.yml` from the previous R/Bookdown setup. They are no longer needed for the Python/MkDocs workflow.
-
-If you need a lockfile for reproducible environments, run `uv lock` and commit the generated `uv.lock`.
+---
 
 This project has received funding from the Horizon Europe research and innovation programme under Grant Agreement No 101112838.
