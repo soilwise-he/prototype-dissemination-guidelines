@@ -74,18 +74,13 @@ The workflow will:
 
 ## Publishing to GitHub Pages
 
-Publish using your preferred strategy for MkDocs output.
+This repository is configured to publish with GitHub Actions from `.github/workflows/pages.yml`.
 
-1. Build the site (`uv run mkdocs build`).
-2. Deploy the generated `site/` directory.
+1. In GitHub repository settings, open Pages and set **Source** to **GitHub Actions**.
+2. Push to `main` (or run the workflow manually from the Actions tab).
+3. The workflow builds with MkDocs and deploys the generated `site/` artifact.
 
-### Manual publish
-
-```bash
-git add site/
-git commit -m "Rebuild site"
-git push
-```
+With this setup, you do not need to point Pages to `/docs`, and the root `README.md` is not used as the published site home page.
 
 ---
 
