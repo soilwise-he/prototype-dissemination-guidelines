@@ -18,6 +18,7 @@ The SoilWise catalogue (https://repository.soilwise-he.eu/) aims at providing a 
 This first version of a practical guide displays how to make FAIR data and knowledge discoverable on SoilWise. It considers the use of Zenodo source repository and emphasizes the observational data and websites specificities.
 
 ## Video walkthrough
+***[PLACEHOLDER FOR DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)***
 
 <iframe
   width="560"

@@ -2,6 +2,8 @@
 title: D4.6 User Manual V1
 ---
 
+***[PLACEHOLDER FOR ZENODO LINK](https://en.wikipedia.org/wiki/Digital_object_identifier)***
+
 ![SoilWise Frontpage](../images/image1.jpg)
 
 ![EU Logo](../images/image2.png)
